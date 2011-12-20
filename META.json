@@ -1,5 +1,5 @@
 {
-   "abstract" : "GURL class from the Google url library.",
+   "abstract" : "GURL class implementation from the Google URL library.",
    "author" : [
       "unknown"
    ],
@@ -22,16 +22,17 @@
       },
       "configure" : {
          "requires" : {
+            "Devel::CheckLib" : "0.01",
             "ExtUtils::CppGuess" : "0.07",
             "Module::Build" : "0.38",
-            "Module::Build::WithXSpp" : "0.10"
+            "Module::Build::WithXSpp" : "0.01"
          }
       }
    },
    "provides" : {
       "URL::Google::GURL" : {
          "file" : "lib/URL/Google/GURL.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -40,5 +41,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

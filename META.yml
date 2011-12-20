@@ -1,14 +1,15 @@
 ---
-abstract: 'GURL class from the Google url library.'
+abstract: 'GURL class implementation from the Google URL library.'
 author:
   - unknown
 build_requires:
   ExtUtils::Typemaps::Default: 0.01
   ExtUtils::XSpp: 0.16
 configure_requires:
+  Devel::CheckLib: 0.01
   ExtUtils::CppGuess: 0.07
   Module::Build: 0.38
-  Module::Build::WithXSpp: 0.10
+  Module::Build::WithXSpp: 0.01
 dynamic_config: 1
 generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
 license: perl
@@ -19,7 +20,7 @@ name: URL-Google-GURL
 provides:
   URL::Google::GURL:
     file: lib/URL/Google/GURL.pm
-    version: 0.01
+    version: 0.02
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
